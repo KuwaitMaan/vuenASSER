@@ -2,6 +2,7 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
+    <aboutme />
   </div>
 </template>
 
@@ -15,4 +16,17 @@ export default {
     HelloWorld
   }
 };
+
 </script>
+
+<script>
+import aboutme from "@/components/aboutme.vue";
+
+export default {
+  name : 'Home',
+  components:{
+    aboutme
+}
+};
+</script>
+
